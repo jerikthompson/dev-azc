@@ -1,5 +1,6 @@
 import ChartExample from '@/components/ChartExample';
 import ChartExample2 from '@/components/ChartExample2';
+import RowCountDisplay from '@/components/RowCountDisplay';
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
           <ChartExample />
           &nbsp;
           <ChartExample2 />
+        </div>
+        <div className='w-full max-w-md'>
+          <RowCountDisplay />
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">

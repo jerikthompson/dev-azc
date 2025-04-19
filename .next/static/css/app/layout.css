@@ -698,6 +698,9 @@ select {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .mt-8 {
   margin-top: 2rem;
 }
@@ -706,6 +709,9 @@ select {
 }
 .grid {
   display: grid;
+}
+.h-24 {
+  height: 6rem;
 }
 .h-\[400px\] {
   height: 400px;
@@ -718,6 +724,9 @@ select {
 }
 .max-w-5xl {
   max-width: 64rem;
+}
+.max-w-md {
+  max-width: 28rem;
 }
 .grid-rows-\[20px_1fr_20px\] {
   grid-template-rows: 20px 1fr 20px;
@@ -782,6 +791,10 @@ select {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -809,6 +822,10 @@ select {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
